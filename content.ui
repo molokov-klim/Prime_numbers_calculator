@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Content</class>
+ <widget class="QDialog" name="Content">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>970</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Справка</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>Элемент</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Пояснение</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Файл</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <item>
+       <property name="text">
+        <string>Создать</string>
+       </property>
+       <property name="text">
+        <string>Создает матрицу указанной размерности</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Открыть</string>
+       </property>
+       <property name="text">
+        <string>Открывает указанный файл формата xls и выводит данные на экран</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+       <property name="text">
+        <string>Сохраняет данные из рабочего поля в указанный файл формата xls</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Закрыть</string>
+       </property>
+       <property name="text">
+        <string>Удаляет все данные, столбцы и строки из рабочего поля</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Выход</string>
+       </property>
+       <property name="text">
+        <string>Закрывает программу</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Таблица</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Добавить строку</string>
+       </property>
+       <property name="text">
+        <string>Добавляет строку в матрицу на рабочем поле</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Удалить строку</string>
+       </property>
+       <property name="text">
+        <string>Удаляет строку из матрицы на рабочем поле</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Добавить столбец</string>
+       </property>
+       <property name="text">
+        <string>Добавляет столбец в матрицу на рабочем поле</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Удалить столбец</string>
+       </property>
+       <property name="text">
+        <string>Удаляет столбец из матрицы на рабочем поле</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Подсветить простые числа</string>
+       </property>
+       <property name="text">
+        <string>Проверяет все элементы матрицы на простоту и изменяет шрифт 
+для элементов являющихся простыми числами на жирный курсив</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Убрать подсветку</string>
+       </property>
+       <property name="text">
+        <string>Устанавливает шрифт по умолчанию для всех элементов матрицы</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Показать сумму простых чисел</string>
+       </property>
+       <property name="text">
+        <string>Проверяет все элементы матрицы на прототу, вычисляет 
+сумму простых чисел для каждого столбца и выводит их 
+суммы в нижнюю строку</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Убрать сумму простых чисел</string>
+       </property>
+       <property name="text">
+        <string>Удаляет нижнюю строку с суммой простых чисел</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Очистить таблицу</string>
+       </property>
+       <property name="text">
+        <string>Удаляет данные из всех элементов матрицы, количество 
+строк и столбцов остается неизменным</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Справка</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>О программе</string>
+       </property>
+       <property name="text">
+        <string>Выводит окно со сведениями о программе</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Содержимое</string>
+       </property>
+       <property name="text">
+        <string>Выводит окно со справочной информацией</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>back</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Content</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

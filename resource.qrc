@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>resource/menu/archive.svg</file>
+        <file>resource/menu/chevrons-down.svg</file>
+        <file>resource/menu/chevrons-left.svg</file>
+        <file>resource/menu/chevrons-right.svg</file>
+        <file>resource/menu/chevrons-up.svg</file>
+        <file>resource/menu/clipboard.svg</file>
+        <file>resource/menu/copy.svg</file>
+        <file>resource/menu/delete.svg</file>
+        <file>resource/menu/file-plus.svg</file>
+        <file>resource/menu/filter.svg</file>
+        <file>resource/menu/folder.svg</file>
+        <file>resource/menu/info.svg</file>
+        <file>resource/menu/log-out.svg</file>
+        <file>resource/menu/minus.svg</file>
+        <file>resource/menu/plus.svg</file>
+        <file>resource/menu/power.svg</file>
+        <file>resource/menu/save.svg</file>
+        <file>resource/menu/sunrise.svg</file>
+        <file>resource/menu/sunset.svg</file>
+        <file>resource/menu/trash-2.svg</file>
+    </qresource>
+</RCC>
